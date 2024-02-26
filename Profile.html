@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv=“refresh” content= “43200”>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+    body {
+    background-image:url("https://lh5.googleusercontent.com/tNcKu8ZbB4oiXYSUVu9Q9882PL-v4K-AEFD4bVELyZKzztMpTAsiQ95Gtk2rQNxZVSCdRoM63x7x3kordKRV7JZAxyj4dmTz9BvG838gj9AmebTG_qT5EAS9dXsD4Wl2IA=w1280");
+    margin-top: 13px;
+    margin-left: 7px;
+   
+
+}
+
+.logo_image{
+            background-color: rgb(255, 255, 255);
+            position: top left;
+            background-repeat:no-repeat;
+            background-attachment:fixed;
+            width: 10%;
+            height: 13vh;
+        }
+
+        .menu
+       {
+        height: 55px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        padding: 0.5%;
+
+       }
+       .menu ul
+       {
+        list-style: none;
+        display: flex;
+        margin-top: 15px;
+
+       }
+       .menu ul li
+       {
+        padding: 2px 20px;
+        margin-top: -5px;
+        position: relative;
+
+       }
+
+       .menu ul li a
+       {
+        color: black;
+        text-decoration: none;
+        font-size: 18px;
+        transition: all 0.3s;
+
+       }
+
+       .menu ul li a:hover
+       {
+        text-decoration: underline;
+
+       }
+
+       .dropdown
+       {
+        display: none;
+       }
+
+       .menu ul li:hover .dropdown
+       {
+        display: block ;
+        position: absolute;
+        left: 0;
+        top:70%;
+        background-color: rgba(205, 98, 232, 0.39);
+
+       }
+
+       .dropdown ul 
+       {
+        display: block;
+        padding: 2px;
+
+       }
+</style>
+</head>
+
+<body>
+    <!--logo and menu-->
+    <div class = "menu">
+        <img class = "logo_image" src = "https://lh3.googleusercontent.com/35UNc5Fm_NaI5XsJxwh0c4ndKSpgfLWh3qVLu8GhUkpjn4Nt-OoETRRZVm_UC_nyOaGuiwvf63FmRU_b2hQepJqVjeZvNDSGo5dAdI6QOyD0QlPmGDDPre7jWe58c-fBvw=w1280">
+        
+
+        <ul style=" font-family: 'Times New Roman'; font-size:smaller; margin-left: 30px; ">
+            <li><a href="homePage.html"><strong>Home</strong></a></li>
+            <li><a href="aboutUs.html"><strong>About us</strong></a></li>
+
+            <li>
+                <a href="#"><strong>Products</strong><i class="fas fa-caret-down"></i></a>
+           <div class="dropdown">
+                <ul >
+                    <li><a href="addtocart.html">Makeup</a> </li>
+                    <li><a href="Perfumes.html">Perfumes</a></li>
+                    <li><a href="skincare.html">Skincare</a> </li>
+                    <li><a href="Hair.html">Haircare</a></li>  
+                </ul>
+            </div>
+        </li>
+
+            <li><a href="ContactUs.html"><strong>Contact us</strong></a></li>
+            <li><a href="Profile.html"><strong>Profile</strong></a></li>
+        </ul>
+    </div>
+
+    <!----------------------------------------------------->
+    <div class="container light-style flex-grow-1 container-p-y">
+        <h4 class="font-weight-bold py-3 mb-4" style="margin-top: 30px; font-family: Georgia, 'Times New Roman', Times, serif;">
+            Profile
+        </h4>
+        <div class="card overflow-hidden" style="margin-top: -1px;">
+            <div class="row no-gutters row-bordered row-border-light" style="padding-bottom: 0px;">
+                <div class="col-md-3 pt-0">
+                    <div class="list-group list-group-flush account-settings-links">
+                        <a class="list-group-item list-group-item-action active" data-toggle="list"
+                            href="#account-general">General</a>
+                        <a class="list-group-item list-group-item-action" data-toggle="list"
+                            href="#account-change-password">Change password</a>
+                        <a class="list-group-item list-group-item-action" data-toggle="list"
+                            href="#account-notifications">Notifications</a>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="tab-content">
+                        <div class="tab-pane fade active show" id="account-general">
+
+                            <hr class="border-light m-0">
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <label class="form-label">Name</label>
+                                    <input type="text" class="form-control" value="Raghad Alshehri">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Phone Number</label>
+                                    <input type="text" class="form-control" value="Raghad Alshehri">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Country</label>
+                                    <input type="text" class="form-control" value="Saudi Arabia">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">E-mail</label>
+                                    <input type="text" class="form-control mb-1" value="rshehri@mail.com">
+                                    <div class="alert alert-warning mt-3" >
+                                        Your email is not confirmed. Please check your inbox.<br>
+                                        <a href="javascript:void(0)" style = "color: #b639c7;">Resend confirmation</a>
+                                    </div>
+                                </div>
+                                <div>
+                                    <img style= "height: 50vh; position: relative; margin-left: -240px; margin-top: -300px;" src="https://lh3.googleusercontent.com/oPzF2hfWfH1ynC9XlDnl65HtgrlCsfCAq4Aj9_59iO_WVvfRMNcU4fP9tcO6ypHsFGsJyIHIOsnMPafxUkFaR5A9eExRuUfeIiVKeo6A6tqGc-x8R30RhAEMoB2g_TObyg=w1280" alt="lavender planer">
+                                </div>
+
+                            </div>
+                        </div>
+                        <!---------------------------------------------Change Password------------------------------->
+                        <div class="tab-pane fade" id="account-change-password">
+                            <div class="card-body pb-2">
+                                <div class="form-group">
+                                    <label class="form-label">Current password</label>
+                                    <input type="password" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">New password</label>
+                                    <input type="password" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Repeat new password</label>
+                                    <input type="password" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+
+                                <!---------------------------------------------Notification------------------------------->
+                        
+                        <div class="tab-pane fade" id="account-notifications">
+
+                            <hr class="border-light m-0">
+                            <div class="card-body pb-2">
+                                <h6 class="mb-4">Let me know</h6>
+                                <div class="form-group">
+                                    <label class="switcher">
+                                        <input type="checkbox" class="switcher-input" checked>
+                                        <span class="switcher-indicator">
+                                            <span class="switcher-yes"></span>
+                                            <span class="switcher-no"></span>
+                                        </span>
+                                        <span class="switcher-label">News and announcements</span>
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <label class="switcher">
+                                        <input type="checkbox" class="switcher-input">
+                                        <span class="switcher-indicator">
+                                            <span class="switcher-yes"></span>
+                                            <span class="switcher-no"></span>
+                                        </span>
+                                        <span class="switcher-label">products updates</span>
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <label class="switcher">
+                                        <input type="checkbox" class="switcher-input" checked>
+                                        <span class="switcher-indicator">
+                                            <span class="switcher-yes"></span>
+                                            <span class="switcher-no"></span>
+                                        </span>
+                                        <span class="switcher-label">Offers and discount</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-right mt-3" style="padding-bottom: 10px;">
+            <button type="button" class="btn btn-primary" style = "background-color: #b639c7; border-color: #b639c7;">Save changes</button>&nbsp;
+            <button type="button" class="btn btn-default">Cancel</button>
+        </div>
+    </div>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+
+    </script>
+
+<footer style="margin-top: auto;"><br>&copy; 2024 Lvndr</footer>
+
+</body>
+
+</html>

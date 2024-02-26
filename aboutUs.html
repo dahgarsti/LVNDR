@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+<head>  
+    <meta charset = "utf-8"/>
+    <title>about us</title>
+    <meta http-equiv=“refresh” content= “43200”>
+    <link rel = "stylesheet" herf = "style.css">
+
+    <style type = "text/css">
+
+        /*first section About us*/
+
+   
+        body{
+            background-image: url('purple.jpg');
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        height: 30vh;
+        margin-bottom:150px;
+        }
+
+        .text{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size:x-large;
+            text-align: center;
+            margin-top: 80px;
+            margin-bottom: 80px;
+            
+        }
+
+        .block{
+            display:inline
+        }
+
+
+        .rightproduct_image{
+            position: right;
+            background-repeat:no-repeat;
+            background-attachment:fixed;
+            width: 10%;
+            height: 25vh;
+            margin-top: 10px;
+        }
+
+        .leftproduct_image{
+            position: left;
+            background-repeat:no-repeat;
+            background-attachment:fixed;
+            width: 5%;
+            height: 10vh;
+        }
+        /*----------------------------------------------------*/
+        .purple
+        {
+            background-color: rgb(227, 204, 250);
+
+        }
+        .white
+        {
+            background-color: white;
+        }
+        .textl em{
+            position: absolute;
+            left: 100px;
+            z-index:3;
+            font-size: 15pt ;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            padding: 30px ;
+            padding-right: 650px;
+            padding-top: 120px;
+        }
+        .textr em {
+            position: absolute;
+            right: 100px;
+            z-index:3;
+            font-size: 15pt ;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            padding: 30px ;
+            padding-left: 650px;
+            padding-top: 120px;
+        }
+        .logo_image{
+            background-color: rgb(255, 255, 255);
+            position: top left;
+            background-repeat:no-repeat;
+            background-attachment:fixed;
+            /*padding-right:50px;
+            margin-top: -50px ;
+            margin-right: 100px ;*/
+            width: 10%;
+            height: 13vh;
+        }
+        .righ_image
+        {
+            position: right;
+            background-repeat:no-repeat;
+            background-attachment:fixed;
+            padding-left: 600px;
+            padding-top: 20px;
+            width: 40%;
+            height: 60vh;
+        }
+        .rrigh_image
+        {
+            position: right;
+            background-repeat:n6o-repeat;
+            background-attachment:fixed;
+            padding-left: 700px;
+            padding-top: 20px;
+            width: 30%;
+            height: 65vh;
+        }
+        .left_image
+        {
+            position: left;
+            background-repeat:no-repeat;
+            background-attachment:fixed;
+            padding-right: 600px;
+            padding-top: 20px;
+            width: 40%;
+            height: 60vh;
+        }
+        .lastSection
+        {
+            width: 40%;
+            height: 30vh;
+            margin-left: 100px ;
+            margin-right: 100px ;
+        }
+        .lasttext
+        {
+            color: rgb(193, 140, 245) ;
+            text-align: center;
+            z-index:3;
+            font-size: 15pt ;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            padding-bottom: 50px ;
+        }
+        /*------------------------------------------ nav bar ----------------------------------------------------*/
+        .menu
+       {
+        height: 55px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        padding: 0.5%;
+
+       }
+       .menu ul
+       {
+        list-style: none;
+        display: flex;
+
+       }
+       .menu ul li
+       {
+        padding: 5px 20px;
+        position: relative;
+
+       }
+
+       .menu ul li a
+       {
+        color: black;
+        text-decoration: none;
+        font-size: 18px;
+        transition: all 0.3s;
+
+       }
+
+       .menu ul li a:hover
+       {
+        text-decoration: underline;
+
+       }
+
+       .dropdown
+       {
+        display: none;
+       }
+
+       .menu ul li:hover .dropdown
+       {
+        display: block ;
+        position: absolute;
+        left: 0;
+        top:70%;
+        background-color: rgba(205, 98, 232, 0.39);
+
+       }
+
+       .dropdown ul 
+       {
+        display: block;
+        padding: 2px;
+
+       }
+
+       /*-------------------------------------------*/
+       /* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  padding: auto;
+  margin: auto;
+}
+
+/* Hide the images by default */
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color:rgb(255, 255, 255);
+  font-size: 18px;
+  padding: 15px 12px;
+  margin-left: 30px;
+  margin-top: 30px;
+  position: absolute;
+  bottom: 4px;
+  width: 100%;
+  text-align: left;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+    /*----------------------------------------------------------------------------------------------------------------*/
+
+
+    </style>
+
+    <script type = "text/javascript">
+        let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    // Next/previous controls
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    // Thumbnail image controls
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+    
+</head>
+<body>
+    <div class = "menu">
+        <img class = "logo_image" src = "https://lh3.googleusercontent.com/35UNc5Fm_NaI5XsJxwh0c4ndKSpgfLWh3qVLu8GhUkpjn4Nt-OoETRRZVm_UC_nyOaGuiwvf63FmRU_b2hQepJqVjeZvNDSGo5dAdI6QOyD0QlPmGDDPre7jWe58c-fBvw=w1280">
+
+        <ul>
+            <li><a href="homePage.html"><strong>Home</strong></a></li>
+            <li><a href="aboutUs.html"><strong>About us</strong></a></li>
+
+            <li>
+                <a href="#"><strong>Products</strong><i class="fas fa-caret-down"></i></a>
+           <div class="dropdown">
+                <ul >
+                    <li><a href="addtocart.html">Makeup</a> </li>
+                    <li><a href="Perfumes.html">Perfumes</a></li>
+                    <li><a href="skincare.html">Skincare</a> </li>
+                    <li><a href="Hair.html">Haircare</a></li>  
+                </ul>
+            </div>
+        </li>
+
+            <li><a href="ContactUs.html"><strong>Contact us</strong></a></li>
+            <li><a href="Profile.html"><strong>Profile</strong></a></li>
+        </ul>
+    </div>
+
+  </hr>
+
+    <div>
+            <!--First section-->
+
+    <!--Second section-->     
+    <div class = "purple">
+        <h1 style="font-family: Georgia, 'Times New Roman', Times, serif; padding: 30px ; padding-right: 650px; padding-top: 30px;position: absolute;left: 100px;z-index:3;"><em>About Us</em></h1>
+        <p class = "textl"><em>At LVNDR, we are passionate about helping you look and feel your best. 
+            Our mission is to provide high-quality, cruelty-free beauty products that enhance your natural 
+            beauty while promoting self-care and confidence.</em></p>
+        <p><img class = "righ_image" src="https://lh3.googleusercontent.com/qfqCEJNW7rEXsadU-2owjdfXjR1LiwaktJlnj4BPHq7YgvZkGnHjHwzWrWNnN40gR-6Wv36uCW9WirE-c-UWTWU=w1280" alt="=model pic"/></p>
+    </div>
+
+    <!--Third section--> 
+    <div class="white">
+        <p class = "textr"><em>Founded by a team of experienced beauty professionals, 
+            we understand the importance of clean and effective beauty solutions. 
+            We are committed to using ethically sourced ingredients and sustainable packaging to minimize our environmental impact.</em></p>
+        <p><img class = "left_image" src="https://lh5.googleusercontent.com/ZijULed0qTtBNzVi7brXOfyMPWJhyNN1vXPvCL2hn-_kByibhezxrzciwOXYl1KGkzho0eESVlVzr_aspD2D8_MBD5LfYFheyUV1ORQTBV_H_vFhXECBvbrzCsgN3WRnuQ=w1280" alt="=models pic"/></p>
+    </div>
+
+
+    <!--fifth section--> 
+    <div class = "purple">
+        <p class = "textl"> <em>Our goal is to empower individuals to express themselves through makeup and skincare while prioritizing their overall well-being.
+            Join us on our journey to redefine beauty standards and celebrate individuality.</em></p>
+        <p><img class = "rrigh_image" src="https://lh5.googleusercontent.com/RWHhegAq4JBfezMl9t9kxPw0XO4Xir0SKaAseERKb9b7KcMw-WuW7-iLnF7SXR570CpSiQYM97jMrXmJVVzxg5JvuhC5z5AUutaCDVn8l9v-MvJVvXrQtJBhiyZ-roIj2g=w1280" alt="=products pic"/> </p>
+    </div>
+
+ 
+
+       <!--Fourth section--> 
+       <h1 style="text-align: center; font-family: Georgia, 'Times New Roman', Times, serif;"><em>Developers Team</em></h1>
+       <div>
+                   <!-- Slideshow container -->
+   <div class="slideshow-container">
+   
+       <!-- Full-width images with number and caption text -->
+       <div class="mySlides fade">
+         <div class="numbertext">1 / 2</div>
+         <img src="https://lh5.googleusercontent.com/dJ5a_2jxi0ot-2Jh3patFtxacMojuuOWoszHraBoCuyctV_pSXIXnR5V48CF93UGDbQWFMgm18EYmV4n2WGbZHjryYBiw0hq56YMcpt4M3LoCbjZhIqSTJ6LJ6C8m-lerQ=w1280" style="width:100%">
+
+         <br>
+         <div class="text" style="display:block;">
+          <h1 style="font-size: 67px;">Raghad </h1>
+          <h1 style="font-size: 67px;">Alshehri</h1>
+          Raghad holds a Bachelor's degree in Information Systems.<br>
+          She is one of the key founders of LVNDR website and<br>
+          the team leader,her primary goal is the success of the project.<br>
+           She insisted on choosing the name LVNDR for the project<br> 
+           as it reflects her love for flowers and the color purple.<br>
+        </div>
+       </div>
+     
+       <div class="mySlides fade" style="display:none;">
+         <div class="numbertext">2 / 2</div>
+         <img src="https://lh4.googleusercontent.com/x4OLyRBNkBtsV_rl0ixHtxREsSRrm2aWga1rGrxgD5kMaoVfm57KhfewUON7HrwW1nylX47DnGCUfyr9fmTXp-AFj5cPng1ykDe18NBb004qQQlyXL-DOsibgWbJqbVMAA=w1280" style="width:100%">
+         <div class="text">
+          <h1 style="font-size: 67px;">Alaa </h1>
+          <h1 style="font-size: 67px;">Monshi</h1>
+          Alaa is social, ambitious girl, she loves to try everything in life,<br>
+          she does not like boring things, and  she never stops striving even<br> 
+          if her dreams come true. Alaa loves LVNDR very much and loves to<br> 
+          develop it and add ideas to the lvndr website.
+         </div>
+       </div>
+     
+       
+     
+       <!-- Next and previous buttons -->
+       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+       <a class="next" onclick="plusSlides(1)">&#10095;</a>
+     </div>
+     <br>
+     
+     <!-- The dots/circles -->
+     <div style="text-align:center">
+       <span class="dot" onclick="currentSlide(1)"></span>
+       <span class="dot" onclick="currentSlide(2)"></span>
+     </div>
+       </div>
+   
+
+    <!--sixth section--> 
+    <div>
+        <table>
+            <thead>
+                <th><img class="lastSection" src="https://lh5.googleusercontent.com/zoheJSe7hzZTvvta86LoJaXFWiIcdWd2lTLoMrPj4YtLRZRb754Tk_HWz53cVrjJ8_x_yxeGWFGNWmYsDNiV8d0=w1280" alt="ship"></th>
+                <th><img class="lastSection" src="https://lh5.googleusercontent.com/kFpQQglaiP9-Zy1SuW5UkIb8mujCZEeYc9MNhGPVzqj9DCNMv-tYIDyWNgS4dVVEF3gWl1B5qpn-FiIbCc6RdVU=w1280" alt="like"></th>
+                <th><img class="lastSection" src="https://lh3.googleusercontent.com/FWmj9tAosMc77I0d5z8L2GrWm9eKC50hdvA_-unTc5CDZ7UoL3fvRRvVWmACCAtDhma0lQw15rk_Wvs1V_wMyMc=w1280" alt="products"></th>
+            </thead>
+            <tbody>
+                <tr class ="lasttext">
+                <td>Worldwide shipping</td>
+                <td> +1000 happy client</td>
+                <td> +500 products</td>
+               </tr>
+            </tbody>
+        </table>
+    </div>
+
+    </div>
+    <div>
+        
+    </div>
+
+    <footer><br>&copy; 2024 Lvndr</footer>
+
+
+</body>

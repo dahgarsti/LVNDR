@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv=“refresh” content= “43200”>
+    <title>Contact us</title>
+    
+
+  </head>
+  <body>
+
+    
+    <div class = "menu">
+
+      <img class="logo" src="https://lh3.googleusercontent.com/35UNc5Fm_NaI5XsJxwh0c4ndKSpgfLWh3qVLu8GhUkpjn4Nt-OoETRRZVm_UC_nyOaGuiwvf63FmRU_b2hQepJqVjeZvNDSGo5dAdI6QOyD0QlPmGDDPre7jWe58c-fBvw=w1280"/>
+      
+      
+
+      <ul>
+          <li><a href="homePage.html"><strong>Home</strong></a></li>
+          <li><a href="aboutUs.html"><strong>About us</strong></a></li>
+
+          <li>
+              <a href="#"><strong>Products</strong><i class="fas fa-caret-down"></i></a>
+         <div class="dropdown">
+              <ul >
+                  <li><a href="addtocart.html">Makeup</a> </li>
+                  <li><a href="Perfumes.html">Perfumes</a></li>
+                  <li><a href="skincare.html">Skincare</a> </li>
+                  <li><a href="Hair.html">Haircare</a></li>  
+              </ul>
+          </div>
+      </li>
+
+          <li><a href="ContactUs.html"><strong>Contact us</strong></a></li>
+          <li><a href="Profile.html"><strong>Profile</strong></a></li>
+      </ul>
+
+      
+    </div>
+    
+    
+    <div class="contact-content">
+      <div class="left-side"><!--الصورة الي على اليسار -->
+        
+        
+      </div>
+
+
+      <div class="right-side">  
+
+        <h1>Contact us</h1>
+        <p>Want to get in touch ? We'd love to hear from you. Here's how you can reach us...</p>
+        
+        <!--The Form-->
+        <form id="contact-form" method="post">
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="name" placeholder="Type Your Name" required>
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="Type Your Email" required>
+          <label for="message">Message</label>
+          <textarea rows="3" placeholder="Type Your Message" id="message" name="message" required></textarea>
+          <!--<a href="">--><button type="submit" id="submit" name="submit">Send</button><!--</a>-->
+      
+        </form>
+
+        <div id="error"></div>
+        <div id="success-msg"></div>
+      </div>
+    </div>
+
+    <!--///////////////كودابو دوائر الكريه/////////////////-->
+
+    <section id="contact">
+      <!-- Left contact page --> 
+        
+          <div class="direct-contact-container">
+    
+            <hr>
+            <ul class="social-media-list">
+              <li><a href="#" target="_blank" class="contact-icon">
+                <i class="fa fa-github" aria-hidden="true"></i></a>
+                <img class="insta" src="https://lh6.googleusercontent.com/5NbRtpSwbAXFe7jX3Rbtl41_OAMzEkU6T79q8iFQKYHjGkUvawxY38TaUxDeJgkU_lCHutiGhnDIZsYFRIhzo4C5NFBvBrKfaq3U41c6X63JK9Hv_l1RIEKp-MFA85QI_w=w1280"/>
+              </li>
+
+              <li><a href="#" target="_blank" class="contact-icon">
+                <i class="fa fa-codepen" aria-hidden="true"></i></a>
+                <img class="facebook" src="https://lh5.googleusercontent.com/UmTHnKGacvG6EgPdZ3clBzDmSVkD-BmoVmjrNNPFGDWvDrGU2NVswJu0rz_2pkTR6ZwHdjMDjKnGN_jAj7qyHvNAWf60s8BLfrVuyXD9AepqRM4l6KU2P6b3W_d2tCM6gw=w1280"/>
+              </li>
+
+              <li><a href="#" target="_blank" class="contact-icon">
+                <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <img class="whatsApp" src="https://lh6.googleusercontent.com/bf4M0EUwVqTARpQjTep_S5NI33TcYaavBMNQy_0cRsM7xg_Vl1XurEKuc8d8tdJ2HtwGNL9ggTm9-Q3IMUQS4O8jxwZaJLGfDY2ZsyNtx8-UcSj_JKQvM2xqAMyvzC5Rqw=w1280"/>
+
+              </li>
+
+              <li><a href="#" target="_blank" class="contact-icon">
+                <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <img class="tiktok" src="https://lh4.googleusercontent.com/7E7-MkepN5uboH_juDtBC4ujnrRKq2zLHQYYaxR4gimfYzTIbIEW-47QVi1Iar4B0j_GpNQLHJcObcWZx73baYd2xeqcN7T5ZIWZ2WQOSARn3QoUZPE5nJElVBDYuyguIA=w1280"/>
+
+              </li>       
+            </ul>
+            <hr>
+    
+            <div class="copyright">&copy; 2024 Lvndr</div>
+    
+          </div>
+        
+      </div>
+      
+    </section>  
+  
+    
+    
+  </body>
+  
+
+  <style type = "text/css">
+    .menu
+       {
+        height: 79px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        padding: 0.5%;
+
+       }
+       .menu ul
+       {
+        list-style: none;
+        display: flex;
+
+       }
+       .menu ul li
+       {
+        padding: 5px 20px;
+        position: relative;
+
+       }
+
+       .menu ul li a
+       {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-size: 18px;
+        transition: all 0.3s;
+
+       }
+
+       .menu ul li a:hover
+       {
+        text-decoration: underline;
+
+       }
+
+       .dropdown
+       {
+        display: none;
+       }
+
+       .menu ul li:hover .dropdown
+       {
+        display: block ;
+        position: absolute;
+        left: 0;
+        top:70%;
+        background-color: rgba(205, 98, 232, 0.39);
+
+       }
+
+       .dropdown ul 
+       {
+        display: block;
+        padding: 2px;
+
+       }
+
+body {
+  background-image: url('https://static.wixstatic.com/media/16dd37_c5f4772a16eb4509ac8925f67d512d4c~mv2.jpg/v1/fill/w_950,h_1043,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/16dd37_c5f4772a16eb4509ac8925f67d512d4c~mv2.jpg');
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  height: 120vh;
+  /*margin-bottom: 100px;
+  /*margin-bottom: 569px;*/
+  margin-left: -25px ;
+  margin-top: -1px;
+  
+  
+
+}
+.contact-content {/*حدود الصورة */
+  display: flex;
+  width: 60vw;
+  height: 100vh;
+  /*background: var(--bg-color);*/
+}
+
+.logo{
+
+  background-color: rgb(255, 255, 255);
+  position:  left;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  height: 110px;
+  width: 110px;
+  margin: 13px 22px;
+  line-height: 40px;
+
+}
+
+
+
+    :root {/*تصميم البوكسات*/
+  --primary-color: rgba(171, 92, 186, 0.865);;
+  --secondary-color: rgb(53, 4, 53);
+  --bg-color: #FCFDFD;
+  --button-color: #741a67;
+  --h1-color: #3F444C;
+  margin-right: -20px -20px;
+  }
+
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.logo {
+  /*width: 5rem;
+  padding: 1.5rem;*/
+  background-color: rgb(255, 255, 255);
+  position: top left;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+            /*padding-right:50px;
+            margin-top: -50px ;
+            margin-right: 100px ;*/
+  width: 10%;
+  height: 13vh;
+  
+  
+}
+
+.right-side {/*الخلفية الرمادية*/
+  background: var(--bg-color);
+  width: 38vw;
+  height: 100vh;
+  padding: 2.5rem 3.5rem;
+  margin-right: 700px;
+}
+
+h1, label, button, .description {/*نوع الخط بس*/
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+}
+
+h1 {
+  color: purple;
+  /*color:var(--h1-color);*/
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  letter-spacing: 0.5rem;
+  font-weight: 200;
+}
+
+p {
+  color: var(--secondary-color);
+  font-size: 0.9rem;
+  letter-spacing: 0.01rem;
+  width: 40vw;
+  margin: 0.25rem 0;
+}
+
+label, .description {/*تصميم خط عناوين البوكسات */
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  font-size: 0.625rem;
+}
+
+form {/*بعد الفورم عن العنوان*/
+  width: 31.25rem;
+  position: relative;
+  margin-top: 0rem;
+  padding: 1rem 0;
+  
+
+}
+
+input, textarea, label { /*ترتيب الفورم*/
+  width: 40vw;
+  display: block;
+}
+
+p, placeholder , input, textarea {/*your message text*/
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+input::placeholder, textarea::placeholder {/*color of your full name */
+  color: var(--primary-color);
+}
+
+input, textarea {/*box design*/
+  color: var(--primary-color);
+  font-weight: 400;
+  background: var(--bg-color);
+  border: none;
+  border-bottom: 1px solid var(--secondary-color);
+  padding: 0.3rem 0;
+  margin-bottom: 1rem;
+  outline: none;
+}
+
+textarea {/*عشان يتمدد النص بحسب الرسالة */
+  resize: none;
+}
+
+button {
+  text-transform: uppercase;
+  font-weight: 300;
+  background: var(--button-color);
+  color: var(--bg-color);
+  width: 10rem;
+  height: 2.25rem;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+  margin: 4px 170px;
+}
+
+input:hover, textarea:hover, button:hover {
+  opacity: 0.5;
+}
+
+
+
+
+
+.description {
+    margin-left: 1.25rem;
+  }
+
+
+
+
+
+#error, #success-msg {
+  width: 40vw;
+  margin: 0.125rem 0;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-family: 'Jost';
+  color: var(--secondary-color);
+  }
+
+
+  #success-msg {
+  transition-delay: 3s;
+  }
+
+@media only screen and (max-width: 950px) {
+  .logo {
+    width: 8rem;
+  }
+  h1 {
+    font-size: 1.75rem;
+  }
+  p {
+    font-size: 0.7rem;
+  }
+  input, textarea, button {
+    font-size: 0.65rem;
+  }
+  .description {
+    font-size: 0.3rem;
+    margin-left: 0.4rem;
+  }
+  button {
+    width: 7rem;
+  }
+  .theme-switch-wrapper {
+    width: 120px;
+  }
+  .theme-switch {
+  height: 28px;
+  width: 50px;
+}
+
+.theme-switch input {
+  display:none;
+}
+
+.slider:before {
+  background-color: #fff;
+  bottom: 0.25rem;
+  content: "";
+  width: 20px;
+  height: 20px;
+  left: 0.25rem;
+  position: absolute;
+  transition: .4s;
+}
+  input:checked + .slider:before {
+  transform: translateX(16px);
+}
+
+.slider.round {
+  border-radius: 15px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+}
+
+
+/* //////////////////////the social mesia/////////////////////////////////////    */
+
+body {
+  margin: 1;
+  margin-top: 10px;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+
+.alt-send-button:hover {
+  transform: translate3d(0px, -29px, 0px);
+}
+
+
+.direct-contact-container {/*للتحكم في مكان الدوائر*/
+  max-width: 300px;
+  
+  
+  
+}
+
+/* Social Media Icons */
+
+.social-media-list ,.insta {/*مكان الدوائر*/
+  position: relative;
+  font-size: 22px;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  padding: 0;
+  margin-left: 4px;
+  margin-top: -135px;
+  
+  width: 48.4vw;
+  height: 15vh;
+  
+}
+
+.social-media-list li a {
+  color: #fff;
+}
+
+.insta  {/*الدوائر*/
+  position: relative; 
+  display: inline-block;
+  height: 55px;
+  width: 55px;
+  margin: 1px 1px;
+  line-height: 60px;
+  border-radius: 50%;/*سمك الدائرة*/
+ 
+  background-color: rgb(115, 5, 123);
+  cursor: pointer; 
+  transition: all .2s ease-in-out;
+}
+
+.facebook  {/*الدوائر*/
+  position: relative; 
+  display: inline-block;
+  height: 55px;
+  width: 55px;
+  margin: 1px 1px;
+  line-height: 60px;
+  border-radius: 50%;/*سمك الدائرة*/
+ 
+  background-color: rgb(115, 5, 123);
+  cursor: pointer; 
+  transition: all .2s ease-in-out;
+}
+.whatsApp  {/*الدوائر*/
+  position: relative; 
+  display: inline-block;
+  height: 55px;
+  width: 55px;
+  margin: 1px 1px;
+  line-height: 60px;
+  border-radius: 50%;/*سمك الدائرة*/
+ 
+  background-color: rgb(115, 5, 123);
+  cursor: pointer; 
+  transition: all .2s ease-in-out;
+}
+.tiktok  {/*الدوائر*/
+  position: relative; 
+  display: inline-block;
+  height: 55px;
+  width: 55px;
+  margin: 1px 1px;
+  line-height: 60px;
+  border-radius: 50%;/*سمك الدائرة*/
+ 
+  background-color: rgb(115, 5, 123);
+  cursor: pointer; 
+  transition: all .2s ease-in-out;
+}
+
+
+
+
+.social-media-list li  {/*الدوائرالخلفية */
+  position: relative; 
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  margin: 10px 3px;
+  line-height: 60px;
+  border-radius: 50%;/*سمك الدائرة*/
+  color: #fff;
+  background-color: rgb(122, 24, 142);
+  cursor: pointer; 
+  transition: all .2s ease-in-out;
+}
+.social-media-list li:hover {/*اللون بعد النقر*/
+  background-color: #fff; 
+}
+
+.social-media-list li:hover:after {
+  opacity: 1;  
+  transform: scale(1.12);
+  transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
+}
+
+.social-media-list li:hover a {
+  color: #000;
+}
+
+.copyright {
+  font: 200 14px ;
+  color: #555;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-left: 0px;
+  margin-top: 1px;
+  
+  width: 48.7vw;
+  height: 5vh;
+
+}
+
+hr {/*الخط الي فوق الدوائر*/
+  border-color: rgba(255,255,255,.6);
+  width: 38.7vw;
+  
+
+}
+
+/* Begin Media Queries*/
+@media screen and (max-width: 850px) {
+  .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .direct-contact-container, .form-horizontal {
+    margin: 0 auto;
+  }  
+  
+  .direct-contact-container {
+    margin-top: 60px;
+    max-width: 200px;
+  }    
+  .social-media-list li {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+  }
+  .social-media-list li:after {
+    width: 40px;
+    height: 60px;
+    line-height: 60px;
+  }
+}
+
+
+
+  </style>
+</html>
